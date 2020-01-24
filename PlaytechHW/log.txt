@@ -1,0 +1,368 @@
+2018-06-22 23:29:56 IN user: roald2 with transaction ID: 1 wanted to change balance by 200
+2018-06-22 23:29:56 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 200. Balance after change is 9800 with balance version 1
+2018-06-22 23:30:12 IN user: roald2 with transaction ID: 1 wanted to change balance by 20000
+2018-06-22 23:30:12 OUT user: roald2 got errorcode 2 with transaction ID: 1 changed balance by 20000. Balance after change is 10000 with balance version 1
+2018-06-22 23:30:25 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-22 23:30:25 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-22 23:30:34 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-22 23:30:34 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-22 23:30:39 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-22 23:30:39 OUT user: roald2 got errorcode 1 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-22 23:47:34 IN user: null with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:48:34 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-22 23:48:34 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-22 23:49:02 IN user: null with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:49:40 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:49:40 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 500 with balance version 1
+2018-06-22 23:50:19 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:50:19 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 500 with balance version 1
+2018-06-22 23:50:19 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:50:19 OUT user: roald2 got errorcode 3 with transaction ID: 0 changed balance by 1000. Balance after change is 500 with balance version 2
+2018-06-22 23:50:40 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:50:40 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:50:40 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:50:40 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:50:40 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:50:40 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:53:48 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:53:48 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:53:48 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:53:48 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:53:48 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:53:48 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:53:48 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:54:38 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:54:58 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:56:09 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-22 23:56:37 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-22 23:56:37 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-22 23:56:53 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:56:53 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:56:53 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:56:53 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:56:53 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:56:53 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:56:53 IN user: roald3 with transaction ID: 0 wanted to change balance by 499
+2018-06-22 23:56:53 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 499. Balance after change is 19501 with balance version 1
+2018-06-22 23:56:53 IN user: roald3 with transaction ID: 0 wanted to change balance by 10
+2018-06-22 23:56:53 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 10. Balance after change is 19491 with balance version 2
+2018-06-22 23:56:53 IN user: roald3 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:56:53 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 19436 with balance version 3
+2018-06-22 23:57:17 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:57:17 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:57:17 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:57:17 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:57:17 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:57:17 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:57:17 IN user: roald3 with transaction ID: 0 wanted to change balance by 499
+2018-06-22 23:57:17 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 499. Balance after change is 19501 with balance version 1
+2018-06-22 23:57:17 IN user: roald3 with transaction ID: 0 wanted to change balance by 10
+2018-06-22 23:57:17 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 10. Balance after change is 19491 with balance version 2
+2018-06-22 23:57:17 IN user: roald3 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:57:17 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 19436 with balance version 3
+2018-06-22 23:57:56 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:57:56 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:57:56 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:57:56 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:57:56 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:57:56 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:57:56 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:57:56 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-22 23:57:56 IN user: roald3 with transaction ID: 0 wanted to change balance by 10
+2018-06-22 23:57:56 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 10. Balance after change is 19490 with balance version 2
+2018-06-22 23:57:56 IN user: roald3 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:57:56 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 19435 with balance version 3
+2018-06-22 23:58:12 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:58:12 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:58:12 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:58:12 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:58:12 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:58:12 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:58:12 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:58:12 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-22 23:58:12 IN user: roald3 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:58:12 OUT user: roald3 got errorcode 2 with transaction ID: 0 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-22 23:58:41 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:58:41 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:58:41 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:58:41 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:58:41 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:58:41 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:58:41 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:58:41 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-22 23:58:41 IN user: roald3 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:58:41 OUT user: roald3 got errorcode 2 with transaction ID: 0 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-22 23:59:39 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:59:39 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-22 23:59:39 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:59:39 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-22 23:59:39 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:59:39 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-22 23:59:39 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-22 23:59:39 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-22 23:59:39 IN user: roald3 with transaction ID: 0 wanted to change balance by 1000
+2018-06-22 23:59:39 OUT user: roald3 got errorcode 2 with transaction ID: 0 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-22 23:59:39 IN user: roald3 with transaction ID: 0 wanted to change balance by 55
+2018-06-22 23:59:39 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-23 00:04:21 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-23 00:04:21 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-23 00:04:21 IN user: roald2 with transaction ID: 0 wanted to change balance by 1000
+2018-06-23 00:04:21 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-23 00:04:21 IN user: roald2 with transaction ID: 0 wanted to change balance by 55
+2018-06-23 00:04:21 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-23 00:04:21 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-23 00:04:21 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-23 00:04:21 IN user: roald3 with transaction ID: 0 wanted to change balance by 1000
+2018-06-23 00:04:21 OUT user: roald3 got errorcode 2 with transaction ID: 0 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-23 00:04:21 IN user: roald3 with transaction ID: 0 wanted to change balance by 55
+2018-06-23 00:04:21 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-23 00:05:43 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-23 00:05:44 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-23 00:05:44 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-23 00:05:44 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-23 00:05:44 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-23 00:05:44 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-23 00:05:44 IN user: roald3 with transaction ID: 3 wanted to change balance by 500
+2018-06-23 00:05:44 OUT user: roald3 got errorcode 0 with transaction ID: 3 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-23 00:05:44 IN user: roald3 with transaction ID: 4 wanted to change balance by 1000
+2018-06-23 00:05:44 OUT user: roald3 got errorcode 2 with transaction ID: 4 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-23 00:05:44 IN user: roald3 with transaction ID: 5 wanted to change balance by 55
+2018-06-23 00:05:44 OUT user: roald3 got errorcode 0 with transaction ID: 5 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-23 00:25:23 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:25:24 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:25:41 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:25:41 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:46:53 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:46:53 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:47:38 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:47:38 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:47:59 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:47:59 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:48:16 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:48:16 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:49:19 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:49:19 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:49:43 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:49:43 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:51:55 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:51:55 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:52:13 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:52:13 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:52:41 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:52:41 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:53:29 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:53:29 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:54:02 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:54:02 OUT user: roald2 got errorcode 3 with transaction ID: 1 changed balance by 2000. Balance after change is 1000 with balance version 1
+2018-06-23 00:56:19 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 00:56:51 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 01:00:05 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 01:00:06 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 2000. Balance after change is 8000 with balance version 1
+2018-06-23 01:01:39 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 01:01:41 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 2000. Balance after change is 8000 with balance version 1
+2018-06-23 01:33:07 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 01:33:08 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 2000. Balance after change is 8000 with balance version 1
+2018-06-23 01:33:28 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-23 01:33:28 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-23 01:33:28 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-23 01:33:28 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-23 01:33:28 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-23 01:33:28 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-23 01:33:28 IN user: roald3 with transaction ID: 3 wanted to change balance by 500
+2018-06-23 01:33:28 OUT user: roald3 got errorcode 0 with transaction ID: 3 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-23 01:33:28 IN user: roald3 with transaction ID: 4 wanted to change balance by 1000
+2018-06-23 01:33:28 OUT user: roald3 got errorcode 2 with transaction ID: 4 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-23 01:33:28 IN user: roald3 with transaction ID: 5 wanted to change balance by 55
+2018-06-23 01:33:28 OUT user: roald3 got errorcode 0 with transaction ID: 5 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-23 01:34:56 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-23 01:34:56 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-23 01:34:56 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-23 01:34:56 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-23 01:34:56 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-23 01:34:56 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-23 01:34:56 IN user: roald3 with transaction ID: 3 wanted to change balance by 500
+2018-06-23 01:34:56 OUT user: roald3 got errorcode 0 with transaction ID: 3 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-23 01:34:56 IN user: roald3 with transaction ID: 4 wanted to change balance by 1000
+2018-06-23 01:34:56 OUT user: roald3 got errorcode 2 with transaction ID: 4 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-23 01:34:56 IN user: roald3 with transaction ID: 5 wanted to change balance by 55
+2018-06-23 01:34:56 OUT user: roald3 got errorcode 0 with transaction ID: 5 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-23 15:05:05 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 15:05:18 IN user: roald2 with transaction ID: 1 wanted to change balance by 2000
+2018-06-23 20:40:51 IN user: roald2 with transaction ID: 2 wanted to change balance by 500
+2018-06-23 20:40:52 OUT user: roald2 got errorcode 4 with transaction ID: 2 changed balance by 500. Balance after change is null with balance version 0
+2018-06-23 20:41:46 IN user: roald2 with transaction ID: 2 wanted to change balance by 500
+2018-06-23 20:41:47 OUT user: roald2 got errorcode 4 with transaction ID: 2 changed balance by 500. Balance after change is null with balance version 0
+2018-06-23 20:42:53 IN user: roald2 with transaction ID: 2 wanted to change balance by 500
+2018-06-23 20:42:53 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-23 20:43:22 IN user: roald2 with transaction ID: 3 wanted to change balance by 450
+2018-06-23 20:43:23 OUT user: roald2 got errorcode 0 with transaction ID: 3 changed balance by 450. Balance after change is 9550 with balance version 1
+2018-06-23 20:43:43 IN user: roald2 with transaction ID: 3 wanted to change balance by 2000
+2018-06-23 20:43:44 OUT user: roald2 got errorcode 0 with transaction ID: 3 changed balance by 2000. Balance after change is 8000 with balance version 1
+2018-06-24 02:18:31 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:18:31 OUT user: roald2 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:18:31 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:18:31 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-24 02:18:31 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:18:31 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-24 02:18:31 IN user: roald3 with transaction ID: 3 wanted to change balance by 500
+2018-06-24 02:18:31 OUT user: roald3 got errorcode 0 with transaction ID: 3 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:18:31 IN user: roald3 with transaction ID: 4 wanted to change balance by 1000
+2018-06-24 02:18:31 OUT user: roald3 got errorcode 2 with transaction ID: 4 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-24 02:18:31 IN user: roald3 with transaction ID: 5 wanted to change balance by 55
+2018-06-24 02:18:31 OUT user: roald3 got errorcode 0 with transaction ID: 5 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-24 02:34:06 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:34:06 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:34:06 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:34:06 OUT user: roald2 got errorcode 0 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:34:06 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:34:06 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 2
+2018-06-24 02:34:06 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:34:06 OUT user: roald3 got errorcode 0 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:34:06 IN user: roald3 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:34:06 OUT user: roald3 got errorcode 2 with transaction ID: 1 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-24 02:34:06 IN user: roald3 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:34:06 OUT user: roald3 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-24 02:34:51 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:34:51 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:34:51 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:34:51 OUT user: roald2 got errorcode 5 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:34:51 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:34:51 OUT user: roald2 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 1
+2018-06-24 02:34:51 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:34:51 OUT user: roald3 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:34:51 IN user: roald3 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:34:51 OUT user: roald3 got errorcode 2 with transaction ID: 1 changed balance by 1000. Balance after change is 19500 with balance version 1
+2018-06-24 02:34:51 IN user: roald3 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:34:51 OUT user: roald3 got errorcode 0 with transaction ID: 2 changed balance by 55. Balance after change is 19445 with balance version 1
+2018-06-24 02:35:26 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:35:26 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:35:26 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:35:26 OUT user: roald2 got errorcode 5 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:35:27 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:35:27 OUT user: roald2 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 1
+2018-06-24 02:35:27 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:35:27 OUT user: roald3 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:35:27 IN user: roald3 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:35:27 OUT user: roald3 got errorcode 2 with transaction ID: 1 changed balance by 1000. Balance after change is 19500 with balance version 1
+2018-06-24 02:35:27 IN user: roald3 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:35:27 OUT user: roald3 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 19445 with balance version 1
+2018-06-24 02:35:59 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:35:59 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:35:59 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:35:59 OUT user: roald2 got errorcode 5 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:35:59 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:35:59 OUT user: roald2 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 1
+2018-06-24 02:36:00 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:36:00 OUT user: roald3 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:36:00 IN user: roald3 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:36:00 OUT user: roald3 got errorcode 2 with transaction ID: 1 changed balance by 1000. Balance after change is 19500 with balance version 1
+2018-06-24 02:36:00 IN user: roald3 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:36:00 OUT user: roald3 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 19445 with balance version 1
+2018-06-24 02:36:48 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:36:48 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:36:48 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:36:48 OUT user: roald2 got errorcode 5 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:36:48 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:36:48 OUT user: roald2 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 1
+2018-06-24 02:36:49 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:36:49 OUT user: roald3 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:36:49 IN user: roald3 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:36:49 OUT user: roald3 got errorcode 2 with transaction ID: 1 changed balance by 1000. Balance after change is 19500 with balance version 1
+2018-06-24 02:36:49 IN user: roald3 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:36:49 OUT user: roald3 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 19445 with balance version 1
+2018-06-24 02:38:31 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:38:31 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:38:31 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:38:31 OUT user: roald2 got errorcode 5 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:38:31 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:38:31 OUT user: roald2 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 1
+2018-06-24 02:38:31 IN user: roald3 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:38:31 OUT user: roald3 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:38:31 IN user: roald3 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:38:31 OUT user: roald3 got errorcode 2 with transaction ID: 1 changed balance by 1000. Balance after change is 19500 with balance version 1
+2018-06-24 02:38:31 IN user: roald3 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:38:31 OUT user: roald3 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 19445 with balance version 1
+2018-06-24 02:38:58 IN user: roald2 with transaction ID: 0 wanted to change balance by 500
+2018-06-24 02:38:58 OUT user: roald2 got errorcode 5 with transaction ID: 0 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:38:58 IN user: roald2 with transaction ID: 1 wanted to change balance by 1000
+2018-06-24 02:38:58 OUT user: roald2 got errorcode 5 with transaction ID: 1 changed balance by 1000. Balance after change is 8500 with balance version 1
+2018-06-24 02:38:58 IN user: roald2 with transaction ID: 2 wanted to change balance by 55
+2018-06-24 02:38:58 OUT user: roald2 got errorcode 5 with transaction ID: 2 changed balance by 55. Balance after change is 8445 with balance version 1
+2018-06-24 02:38:58 IN user: roald3 with transaction ID: 3 wanted to change balance by 500
+2018-06-24 02:38:58 OUT user: roald3 got errorcode 5 with transaction ID: 3 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:38:58 IN user: roald3 with transaction ID: 4 wanted to change balance by 1000
+2018-06-24 02:38:58 OUT user: roald3 got errorcode 2 with transaction ID: 4 changed balance by 1000. Balance after change is 19500 with balance version 1
+2018-06-24 02:38:58 IN user: roald3 with transaction ID: 5 wanted to change balance by 55
+2018-06-24 02:38:58 OUT user: roald3 got errorcode 0 with transaction ID: 5 changed balance by 55. Balance after change is 19445 with balance version 1
+2018-06-24 02:39:18 IN user: roald2 with transaction ID: 6 wanted to change balance by 500
+2018-06-24 02:39:18 OUT user: roald2 got errorcode 0 with transaction ID: 6 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:39:18 IN user: roald2 with transaction ID: 7 wanted to change balance by 1000
+2018-06-24 02:39:18 OUT user: roald2 got errorcode 0 with transaction ID: 7 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-24 02:39:18 IN user: roald2 with transaction ID: 8 wanted to change balance by 55
+2018-06-24 02:39:18 OUT user: roald2 got errorcode 0 with transaction ID: 8 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-24 02:39:19 IN user: roald3 with transaction ID: 9 wanted to change balance by 500
+2018-06-24 02:39:19 OUT user: roald3 got errorcode 0 with transaction ID: 9 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:39:19 IN user: roald3 with transaction ID: 10 wanted to change balance by 1000
+2018-06-24 02:39:19 OUT user: roald3 got errorcode 2 with transaction ID: 10 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-24 02:39:19 IN user: roald3 with transaction ID: 11 wanted to change balance by 55
+2018-06-24 02:39:19 OUT user: roald3 got errorcode 0 with transaction ID: 11 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-24 02:40:28 IN user: roald2 with transaction ID: 12 wanted to change balance by 500
+2018-06-24 02:40:28 OUT user: roald2 got errorcode 0 with transaction ID: 12 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:40:28 IN user: roald2 with transaction ID: 13 wanted to change balance by 1000
+2018-06-24 02:40:28 OUT user: roald2 got errorcode 0 with transaction ID: 13 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-24 02:40:28 IN user: roald2 with transaction ID: 14 wanted to change balance by 55
+2018-06-24 02:40:28 OUT user: roald2 got errorcode 0 with transaction ID: 14 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-24 02:40:28 IN user: roald3 with transaction ID: 15 wanted to change balance by 500
+2018-06-24 02:40:28 OUT user: roald3 got errorcode 0 with transaction ID: 15 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:40:29 IN user: roald3 with transaction ID: 16 wanted to change balance by 1000
+2018-06-24 02:40:29 OUT user: roald3 got errorcode 2 with transaction ID: 16 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-24 02:40:29 IN user: roald3 with transaction ID: 16 wanted to change balance by 55
+2018-06-24 02:40:29 OUT user: roald3 got errorcode 0 with transaction ID: 16 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-24 02:58:34 IN user: roald2 with transaction ID: 17 wanted to change balance by 500
+2018-06-24 02:58:34 OUT user: roald2 got errorcode 0 with transaction ID: 17 changed balance by 500. Balance after change is 9500 with balance version 1
+2018-06-24 02:58:34 IN user: roald2 with transaction ID: 18 wanted to change balance by 1000
+2018-06-24 02:58:34 OUT user: roald2 got errorcode 0 with transaction ID: 18 changed balance by 1000. Balance after change is 8500 with balance version 2
+2018-06-24 02:58:34 IN user: roald2 with transaction ID: 19 wanted to change balance by 55
+2018-06-24 02:58:34 OUT user: roald2 got errorcode 0 with transaction ID: 19 changed balance by 55. Balance after change is 8445 with balance version 3
+2018-06-24 02:58:34 IN user: roald3 with transaction ID: 20 wanted to change balance by 500
+2018-06-24 02:58:34 OUT user: roald3 got errorcode 0 with transaction ID: 20 changed balance by 500. Balance after change is 19500 with balance version 1
+2018-06-24 02:58:35 IN user: roald3 with transaction ID: 21 wanted to change balance by 1000
+2018-06-24 02:58:35 OUT user: roald3 got errorcode 2 with transaction ID: 21 changed balance by 1000. Balance after change is 19500 with balance version 2
+2018-06-24 02:58:35 IN user: roald3 with transaction ID: 21 wanted to change balance by 55
+2018-06-24 02:58:35 OUT user: roald3 got errorcode 0 with transaction ID: 21 changed balance by 55. Balance after change is 19445 with balance version 2
+2018-06-24 02:58:58 IN user: roald2 with transaction ID: 22 wanted to change balance by 500
+2018-06-24 02:58:58 OUT user: roald2 got errorcode 0 with transaction ID: 22 changed balance by 500. Balance after change is 7945 with balance version 4
+2018-06-24 02:58:58 IN user: roald2 with transaction ID: 23 wanted to change balance by 1000
+2018-06-24 02:58:58 OUT user: roald2 got errorcode 0 with transaction ID: 23 changed balance by 1000. Balance after change is 6945 with balance version 5
+2018-06-24 02:58:58 IN user: roald2 with transaction ID: 24 wanted to change balance by 55
+2018-06-24 02:58:58 OUT user: roald2 got errorcode 0 with transaction ID: 24 changed balance by 55. Balance after change is 6890 with balance version 6
+2018-06-24 02:58:58 IN user: roald3 with transaction ID: 25 wanted to change balance by 500
+2018-06-24 02:58:58 OUT user: roald3 got errorcode 0 with transaction ID: 25 changed balance by 500. Balance after change is 18945 with balance version 3
+2018-06-24 02:58:58 IN user: roald3 with transaction ID: 26 wanted to change balance by 1000
+2018-06-24 02:58:58 OUT user: roald3 got errorcode 2 with transaction ID: 26 changed balance by 1000. Balance after change is 18945 with balance version 4
+2018-06-24 02:58:58 IN user: roald3 with transaction ID: 26 wanted to change balance by 55
+2018-06-24 02:58:58 OUT user: roald3 got errorcode 0 with transaction ID: 26 changed balance by 55. Balance after change is 18890 with balance version 4
+2018-06-24 02:59:11 IN user: roald2 with transaction ID: 27 wanted to change balance by 500
+2018-06-24 02:59:11 OUT user: roald2 got errorcode 0 with transaction ID: 27 changed balance by 500. Balance after change is 6390 with balance version 7
+2018-06-24 02:59:11 IN user: roald2 with transaction ID: 28 wanted to change balance by 1000
+2018-06-24 02:59:11 OUT user: roald2 got errorcode 0 with transaction ID: 28 changed balance by 1000. Balance after change is 5390 with balance version 8
+2018-06-24 02:59:12 IN user: roald2 with transaction ID: 29 wanted to change balance by 55
+2018-06-24 02:59:12 OUT user: roald2 got errorcode 0 with transaction ID: 29 changed balance by 55. Balance after change is 5335 with balance version 9
+2018-06-24 02:59:12 IN user: roald3 with transaction ID: 30 wanted to change balance by 500
+2018-06-24 02:59:12 OUT user: roald3 got errorcode 0 with transaction ID: 30 changed balance by 500. Balance after change is 18390 with balance version 5
+2018-06-24 02:59:12 IN user: roald3 with transaction ID: 31 wanted to change balance by 1000
+2018-06-24 02:59:12 OUT user: roald3 got errorcode 2 with transaction ID: 31 changed balance by 1000. Balance after change is 18390 with balance version 6
+2018-06-24 02:59:12 IN user: roald3 with transaction ID: 31 wanted to change balance by 55
+2018-06-24 02:59:12 OUT user: roald3 got errorcode 0 with transaction ID: 31 changed balance by 55. Balance after change is 18335 with balance version 6
+2018-06-24 02:59:18 IN user: roald2 with transaction ID: 32 wanted to change balance by 500
+2018-06-24 02:59:18 OUT user: roald2 got errorcode 0 with transaction ID: 32 changed balance by 500. Balance after change is 4835 with balance version 10
+2018-06-24 02:59:19 IN user: roald2 with transaction ID: 33 wanted to change balance by 1000
+2018-06-24 02:59:19 OUT user: roald2 got errorcode 0 with transaction ID: 33 changed balance by 1000. Balance after change is 3835 with balance version 11
+2018-06-24 02:59:19 IN user: roald2 with transaction ID: 34 wanted to change balance by 55
+2018-06-24 02:59:19 OUT user: roald2 got errorcode 0 with transaction ID: 34 changed balance by 55. Balance after change is 3780 with balance version 12
+2018-06-24 02:59:19 IN user: roald3 with transaction ID: 35 wanted to change balance by 500
+2018-06-24 02:59:19 OUT user: roald3 got errorcode 0 with transaction ID: 35 changed balance by 500. Balance after change is 17835 with balance version 7
+2018-06-24 02:59:19 IN user: roald3 with transaction ID: 36 wanted to change balance by 1000
+2018-06-24 02:59:19 OUT user: roald3 got errorcode 2 with transaction ID: 36 changed balance by 1000. Balance after change is 17835 with balance version 8
+2018-06-24 02:59:19 IN user: roald3 with transaction ID: 36 wanted to change balance by 55
+2018-06-24 02:59:19 OUT user: roald3 got errorcode 0 with transaction ID: 36 changed balance by 55. Balance after change is 17780 with balance version 8
