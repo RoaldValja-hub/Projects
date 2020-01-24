@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+	<meta charset="utf-8"/>
+	<title>Veebiliides</title>
+	<link rel="stylesheet" type="text/css" href="css/Veebiliides.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js" type="text/javascript"></script>
+	<script lang="javascript" src="js/xlsx.full.min.js"></script>
+	<script src="js/xlsx.core.min.js"></script>
+	<script src="js/FileSaver.js"></script>
+	<script src="js/tableexport.js"></script>
+	<script src="js/Examples.js"></script>
+	<script src="js/Veebiliides.js"></script>
+</head>
+<body style="height:100%;">
+	<div id="menu" style="width:100%; height:10%; background-color: gray; float:left;">
+		<div id="topArea" style="width:100%; height:60%; background-color: gray; float:left;">
+			<div id="topEmptyArea" style="width:100%; height:20%; float:left;"></div>
+			<div class="menuButton" id="inputFile" onclick="getInputFile()">Sisendfail
+				<input type="file" id="input-excel" onchange="getInputFile(event)"/>
+			</div>
+			<div id="centerEmptyArea1" style="width:5%; height:80%; float:left;"></div>
+			<div id="tableButtons" style="width:55%;height:80%; float:left;">		
+				<div id="tableEmptyArea" style="width:100%; height:33%; float:left;"></div>
+				<div class="menuButton" id="newProject" onclick="newProject()">Uus Projekt</div>
+				<div class="menuButton" id="generateExampleTable" onclick="generateExampleTable()">Loo Näidistabel</div>
+				<div class="menuButton" id="generateTemplateTable" onclick="generateTemplateTable()">Loo Tabeli Mall</div>
+				<div style="width:30%; height:50%; background-color: cyan; float:left;">
+					<div style="width:30%; height:100%; float:left;">
+						<input type="text" name="getTableRow" placeholder="Tabeli rida" style="width:100%; height:80%">
+					</div>
+					<div style="width:30%; height:100%; float:left;">
+						<input type="text" name="getTableColumn" placeholder="Tabeli veerg" style="width:100%; height:80%">
+					</div>
+					<div class="menuButton" id="generateTable" onclick="generateTable('','','')">Loo Tabel</div>
+				</div>
+				<div class="menuButton" id="addRow" onclick="addRow()">Lisa Rida</div>
+				<div class="menuButton" id="addColumn" onclick="addColumn()">Lisa Veerg</div>
+			</div>
+			<div id="centerEmptyArea2" style="width:3%; height:80%; float:left;"></div>
+			<div class="menuButton" id="saveSheetJSButton" onclick="saveSheetJSProject()">Salvesta SheetJS Tabel</div>
+			<div class="menuButton" id="saveButton" onclick="saveProject()">Salvesta Tabel</div>
+			<div class="menuButton" id="planProject" onclick="planProject()">Planeeri</div>
+		</div>
+		<!--<div id="emptyArea1" style="width:2%; height:40%; background-color: gray; float:left;">emptyArea1</div>-->
+		<div id="tabArea">
+			<div id="tabs">
+				<div  contenteditable='true'  class="tab" id="tab1" onclick="showTab('exampleTable')">
+					tab1
+				</div>
+				<div  contenteditable='true'  class="tab" id="tab2" onclick="showTab('table2')">
+					tab2
+				</div>
+				<div  contenteditable='true'  class="tab" id="tab3" onclick="showTab('table3')">
+					tab3
+				</div>
+				<div  contenteditable='true'  class="tab" id="tab4" onclick="showTab('table4')">
+					tab4
+				</div>
+				<div  contenteditable='true'  class="tab" id="tab5" onclick="showTab('table5')">
+					tab5
+				</div>
+			</div>
+			<div style="width:15%; height:100%; float:left;">
+				<div style="width:65%; height:100%; float:left;">
+					<input type="text" id="tabName" name="tabName" placeholder="Tabeli nimi">
+				</div>
+				<div class="menuButton" id="addTab" onclick="addTab('')">Lisa Tabel</div>
+			</div>
+		</div>
+		<!--<div id="emptyArea2" style="width:10%; height:40%; background-color: gray; float:left;">emptyArea2</div>-->
+	</div>
+	<div id="content" style="width:100%; height:90%; float:left; overflow: auto; white-space: nowrap;">
+		<div id="rowNr" style="width:2%; background-color: gray; float:left; position:relative;">
+			<div id="rowNr1" style="width:100%; height:40px; float:left;" onclick="getActiveTable()">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+			<div id="rowNr1" style="width:100%; height:40px; float:left;">row</div>
+
+		</div>
+		<!--<div id="absoluteEmptySpace" style="width:2%; height:100%; float:left; background-color:green;"></div>-->
+		<div id="tableRows" style="width:98%; height:100%; float:left;">
+			<table class="table" id="exampleTable" style="display:none">
+				<thead>
+					<tr>
+						<th contenteditable='true' class="tableRowClass">1</th>
+						<th contenteditable='true' class="tableRowClass">2</th>
+						<th contenteditable='true' class="tableRowClass">3</th>
+						<th contenteditable='true' class="tableRowClass">4</th>
+						<th contenteditable='true' class="tableRowClass">5</th>
+						<th contenteditable='true' class="tableRowClass">6asdasd</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td contenteditable='true' class="tableRowClass">1asdasd</td>
+						<td contenteditable='true' class="tableRowClass">2</td>
+						<td contenteditable='true' class="tableRowClass">3</td>
+						<td contenteditable='true' class="tableRowClass">4</td>
+						<td contenteditable='true' class="tableRowClass">5</td>
+						<td contenteditable='true' class="tableRowClass">6</td>
+					</tr>
+					<tr>
+						<td contenteditable='true' class="tableRowClass">1asdasd</td>
+						<td contenteditable='true' class="tableRowClass">2</td>
+						<td contenteditable='true' class="tableRowClass">3</td>
+						<td contenteditable='true' class="tableRowClass">4</td>
+						<td contenteditable='true' class="tableRowClass">5</td>
+						<td contenteditable='true' class="tableRowClass">6</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table" id="table2" style="display:none">
+				<tr>
+					<th contenteditable='true' class="tableRowClass">1a</th>
+					<th contenteditable='true' class="tableRowClass">2a</th>
+					<th contenteditable='true' class="tableRowClass">3a</th>
+					<th contenteditable='true' class="tableRowClass">4a</th>
+					<th contenteditable='true' class="tableRowClass">5a</th>
+					<th contenteditable='true' class="tableRowClass">6aasdasd</th>
+				</tr>
+				<tr>
+					<td contenteditable='true' class="tableRowClass">1aasdasd</td>
+					<td contenteditable='true' class="tableRowClass">2a</td>
+					<td contenteditable='true' class="tableRowClass">3a</td>
+					<td contenteditable='true' class="tableRowClass">4a</td>
+					<td contenteditable='true' class="tableRowClass">5a</td>
+					<td contenteditable='true' class="tableRowClass">6a</td>
+				</tr>
+				<tr>
+					<td contenteditable='true' class="tableRowClass">1aasdasd</td>
+					<td contenteditable='true' class="tableRowClass">2a</td>
+					<td contenteditable='true' class="tableRowClass">3a</td>
+					<td contenteditable='true' class="tableRowClass">4a</td>
+					<td contenteditable='true' class="tableRowClass">5a</td>
+					<td contenteditable='true' class="tableRowClass">6a</td>
+				</tr>
+			</table>
+			<table class="table" id="table3" style="display:none">
+				<tr>
+					<th contenteditable='true' class="tableRowClass">1b</th>
+					<th contenteditable='true' class="tableRowClass">2b</th>
+					<th contenteditable='true' class="tableRowClass">3b</th>
+					<th contenteditable='true' class="tableRowClass">4b</th>
+					<th contenteditable='true' class="tableRowClass">5b</th>
+					<th contenteditable='true' class="tableRowClass">6basdasd</th>
+				</tr>
+				<tr>
+					<td contenteditable='true' class="tableRowClass">1basdasd</td>
+					<td contenteditable='true' class="tableRowClass">2b</td>
+					<td contenteditable='true' class="tableRowClass">3b</td>
+					<td contenteditable='true' class="tableRowClass">4b</td>
+					<td contenteditable='true' class="tableRowClass">5b</td>
+					<td contenteditable='true' class="tableRowClass">6b</td>
+				</tr>
+			</table>
+			<table class="table" id="table4" style="display:none">
+				<tr>
+					<th contenteditable='true' class="tableRowClass">1c</th>
+					<th contenteditable='true' class="tableRowClass">2c</th>
+					<th contenteditable='true' class="tableRowClass">3c</th>
+					<th contenteditable='true' class="tableRowClass">4c</th>
+					<th contenteditable='true' class="tableRowClass">5c</th>
+					<th contenteditable='true' class="tableRowClass">6casdasd</th>
+				</tr>
+				<tr>
+					<td contenteditable='true' class="tableRowClass">1casdasd</td>
+					<td contenteditable='true' class="tableRowClass">2c</td>
+					<td contenteditable='true' class="tableRowClass">3c</td>
+					<td contenteditable='true' class="tableRowClass">4c</td>
+					<td contenteditable='true' class="tableRowClass">5c</td>
+					<td contenteditable='true' class="tableRowClass">6c</td>
+				</tr>
+			</table>
+			<table class="table" id="table5" style="display:none">
+				<tr>
+					<th contenteditable='true' class="tableRowClass">1d</th>
+					<th contenteditable='true' class="tableRowClass">2d</th>
+					<th contenteditable='true' class="tableRowClass">3d</th>
+					<th contenteditable='true' class="tableRowClass">4d</th>
+					<th contenteditable='true' class="tableRowClass">5d</th>
+					<th contenteditable='true' class="tableRowClass">6dasdasd</th>
+				</tr>
+				<tr>
+					<td contenteditable='true' class="tableRowClass">1dasdasd</td>
+					<td contenteditable='true' class="tableRowClass">2d</td>
+					<td contenteditable='true' class="tableRowClass">3d</td>
+					<td contenteditable='true' class="tableRowClass">4d</td>
+					<td contenteditable='true' class="tableRowClass">5d</td>
+					<td contenteditable='true' class="tableRowClass">6d</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

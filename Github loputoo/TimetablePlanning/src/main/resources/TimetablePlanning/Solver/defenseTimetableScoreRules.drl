@@ -1,0 +1,202 @@
+//created on: 14-Apr-2019
+package TimetablePlanning.Solver;
+	dialect "java"
+
+//list any import classes here.
+import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+
+
+//declare any global variables here
+global HardSoftScoreHolder scoreHolder;
+
+
+
+rule "Commission at least three members"
+
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Author prerequisites done"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Author unavailable dates"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Author unavailable time"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Commission member unavailable date"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Commission member unavailable time"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense has one chairman"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense grouped by same language"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext, $defense2.sameLanguageTagCount($defense1);
+
+end
+
+rule "Defense grouped by same thesis type"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext, $defense2.sameThesisTypeTagCount($defense1);
+
+end
+
+rule "Closed defenses at start or end day or at before or after lunch"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense on authors preferred date"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense on authors preferred time"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense on commission members preferred date"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense on commission members preferred time"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense on authors supervisors preferred date"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense on authors supervisors preferred time"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense authors supervisor unavailable date"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Defense authors supervisor unavailable time"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext);
+
+end
+
+rule "Group defense authors by common supervisor"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        scoreHolder.penalize(kcontext, $defense2.sameSupervisorTagCount($defense1);
+
+end

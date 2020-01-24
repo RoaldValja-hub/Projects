@@ -1,0 +1,28 @@
+	plugins {
+	id 'java'
+	id 'eclipse'
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	maven {
+        url 'https://repository.jboss.org/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+	implementation('org.optaplanner:optaplanner-core:7.19.0.Final')
+	compile "org.slf4j:slf4j-simple:1.7.9"
+	compile "org.kie:kie-api:7.20.0.Final"
+    compile "org.drools:drools-compiler:7.20.0.Final"
+	compile 'junit:junit:4.12'
+	testImplementation('org.junit.jupiter:junit-jupiter:5.4.0')
+}
+
+test {
+	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
