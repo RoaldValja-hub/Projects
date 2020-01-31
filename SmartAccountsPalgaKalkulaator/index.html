@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Palgakalkulaator</title>
+		<link rel="stylesheet" type="text/css" href="css/calculator.css">
+		
+	</head>
+	<body>
+		<div class="freeSpace" id="top"></div>
+		<div class="freeSpace" id="left"></div>
+		<div id="calculator">
+			<div id="lahteAndmed">Lähteandmed<br>
+				Palga valik:
+				<select id="palgaValik">
+					<option value="kogukulu">kogukulu</option>
+					<option value="brutopalk">brutopalk</option>
+					<option value="netopalk">netopalk</option>
+				</select>
+				<br>
+				Lähtesumma:
+				<input type="text" name="sum" id="lahtesumma" value="0">
+				€<br>
+				<input type="checkbox" name="Tax1" id="tax1" value="employerTax"> Tööandja töötuskindlustusmakse (0.8%)<br>
+				<input type="checkbox" name="Tax2" id="tax2" value="employeeTax"> Töötaja töötuskindlustusmakse (1.6%)<br>
+				<input type="checkbox" name="TaxFree" id="taxFree" value="taxFreeIncomeChoice"> Tulumaksuvaba miinimum<br>
+				<input type="checkbox" name="SocialTax" id="socialTax" value="socialTaxChoice"> Sotsiaalmaksu miinimum<br>
+				<input type="checkbox" name="Pension" id="pension" value="pensionChoice"> Kogumispension (II sammas)<br>
+				<button type="button" id="arvutaButton">Arvuta</button>
+			</div>
+			<div id="tulemus">
+				<div class="tulemused" id="tootaja">
+					<b>Töötaja palk ja maksud</b><br>
+					
+					<div class="pre" id="preBruto">Brutopalk:</div>
+					<div class="post" id="postBruto">0€</div>
+					<div class="append" id="appendBruto">100%</div><br>
+					
+					<div class="pre" id="preTootusKindlustus1">Töötuskindlustus (töötaja) (1.6%):</div>
+					<div class="post" id="postTootusKindlustus1">0€</div>
+					<div class="append" id="appendTootusKindlustus1">0%</div><br>
+					
+					<div class="pre" id="preKogumispension">Kogumispension (2%):</div>
+					<div class="post" id="postKogumispension">0€</div>
+					<div class="append" id="appendKogumispension">0%</div><br>	
+
+					<div class="pre" id="preTulumaks">Tulumaks (20%):</div>
+					<div class="post" id="postTulumaks">0€</div>
+					<div class="append" id="appendTulumaks">0%</div><br>
+					
+					<div class="pre" id="preNet1">Netosumma (kätte):</div>
+					<div class="post" id="postNet1">0€</div>
+					<div class="append" id="appendNet1">0%</div><br>
+					
+					<div id="tulumaksuVaba">Arvestatud tulumaksuvaba miinimumi </div>
+					<div id="tulumaksuVabaSumma">0€</div>
+					
+				</div>
+				<div class="tulemused" id="tooandja">
+					<br><b>Tööandja kulud ja maksud</b><br>
+					
+					<div class="pre" id="preKogukulu1">Kogukulu tööandjale:</div>
+					<div class="post" id="postKogukulu1">0€</div>
+					<div class="append" id="appendKogukulu1">100%</div><br>
+					
+					<div class="pre" id="preBrutopalk">Brutopalk:</div>
+					<div class="post" id="postBrutopalk">0€</div>
+					<div class="append" id="appendBrutopalk">0%</div><br>
+					
+					<div class="pre" id="preSotsiaalmaks">Sotsiaalmaks (33%):</div>
+					<div class="post" id="postSotsiaalmaks">0€</div>
+					<div class="append" id="appendSotsiaalmaks">0%</div><br>	
+
+					<div class="pre" id="preTootusKindlustus2">Töötuskindlustus (Tööandja) (0.8%):</div>
+					<div class="post" id="postTootusKindlustus2">0€</div>
+					<div class="append" id="appendTootusKindlustus2">0%</div><br>
+				</div>
+				<div class="tulemused" id="jaotus">
+					<br><b>Rahade jaotus</b><br>
+					
+					<div class="pre" id="preKogukulu2">Kogukulu tööandjale:</div>
+					<div class="post" id="postKogukulu2">0€</div>
+					<div class="append" id="appendKogukulu2">100%</div><br>
+					
+					<div class="pre" id="preNet2">Töötajale (Netosumma kätte):</div>
+					<div class="post" id="postNet2">0€</div>
+					<div class="append" id="appendNet2">0%</div><br>
+					
+					<div class="pre" id="preMaksuametile">Maksuametile (kõik maksud):</div>
+					<div class="post" id="postMaksuametile">0€</div>
+					<div class="append" id="appendMaksuametile">0%</div><br>
+				</div>
+			</div>
+		</div>
+		<div class="freeSpace" id="right"></div>
+		<div class="freeSpace" id="bottom"></div>
+	</body>
+	<script src="js/calculator.js"></script>
+</html>

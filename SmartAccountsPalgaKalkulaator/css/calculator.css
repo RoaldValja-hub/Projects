@@ -1,0 +1,80 @@
+body {
+	background-color: gray;
+	margin: 0px;
+	padding: 0px;
+}
+
+.freeSpace {
+	float: left;
+	background-color: gray;
+}
+
+#top {
+	width: 100%;
+	height: 20vh;
+}
+
+#calculator {
+	float: left;
+	background-color: yellow;
+	width: 80%;
+	height: 60vh;
+}
+
+#left {
+	width: 10%;
+	height: 60vh;
+}
+
+#right {
+	width: 10%;
+	height: 60vh;
+}
+
+#bottom {
+	width: 100%;
+	height: 20vh;
+}
+
+#lahteAndmed {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #aba6a6;
+}
+
+#tulemus {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #aba6a6;
+}
+
+.tulemused {
+	float: left;
+	width: 100%;
+}
+
+.pre {
+	float: left;
+	width: 50%;
+}
+
+.post {
+	float: left;
+}
+
+.append {
+	float: left;
+	margin-left: 10px;
+}
+
+#tulumaksuVaba {
+	float: left;
+	width: 60%;
+}
+
+#tulumaksuVabaSumma {
+	float: left;
+	width: 40%;
+}
